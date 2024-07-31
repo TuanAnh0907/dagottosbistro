@@ -1,0 +1,639 @@
+
+
+body{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color:#000;
+	background: #912424;
+	font-size:15px;
+}
+
+h1 {
+	color:#912424;
+	font-size:40px;
+	padding-top:30px;
+	font-family: 'Pinyon Script', cursive;
+	font-weight:800;
+	padding-bottom:30px;
+}
+
+h2 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight:800;
+	padding:15px;
+	color:#912424;
+}
+
+h3 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight:800;
+	color:#000000;
+}
+
+#menu {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color:#000000;
+}
+
+a:link {  font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; color: #d91f2a; text-decoration: none}
+a:visited {  font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; color: #d91f2a; text-decoration: none}
+a:active {  font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; color: #d91f2a; text-decoration: none}
+a:hover {  font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; color: #d91f2a; text-decoration: none;}
+
+#wrap{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#page .header{
+	height: 180px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	margin-right: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	width: 1000px;
+}
+
+#page .header img{
+	margin-top: 0px;
+}
+
+#facebook {
+	position:absolute;
+	z-index:5;
+	left:800px;
+	top:65px;
+	border:0;
+}
+
+/*-------------------------------navigation--------------------------*/
+
+#page .navigation{
+	width: 1000px;
+	background: #FFF;
+	margin-left: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	margin-right: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+#page .navigation .border{
+	border-top: 1px solid #912424;
+	border-bottom: 1px solid #912424;
+	margin-left: 31px;
+	margin-right: 31px;
+}
+
+#page .navigation ul{
+	padding: 8px;
+	padding-left: 0px;
+	padding-right: 0px;
+	float:left;
+	width: 1000px;
+}
+
+#page .navigation ul li{
+	display: inline;
+	background: url(/images/navigation_dot.jpg) no-repeat;
+	padding-left: 46px;
+	padding-right: 38px;
+	color: #912424;
+}
+
+#page .navigation ul li.first{
+	background: none;
+	padding-left: 0px;
+}
+
+#page .navigation ul li .icon{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+#page .navigation ul li a{
+	text-decoration: none;
+	color: #912424;
+	font-size:14px;
+}
+
+#page .navigation ul li a:hover{
+	text-decoration: none;
+	color: #912424;
+}
+
+#page .navigation .search{
+	float: right;
+	padding-top: 6px;
+}
+
+#page .navigation .search .field{
+	background: #e1e1e1;
+	border: 1px solid #e1e1e1;
+	font:12px 'Georgia';
+	padding: 1px;
+}
+
+#page .navigation .search .button{
+	background: #FFF;
+	border: 1px solid #e1e1e1;
+	color: #313131;
+	font:12px 'Georgia';
+}
+
+#nav a{
+display:block;
+float:none;
+}
+
+#nav li{
+float:left;
+position:relative;
+}
+
+
+#nav .more{background: white url(/images/arrow.gif) no-repeat right    !important;}
+
+/* Clear the bullet and adjust padding on each drop element */
+#page .navigation #nav li ul li{
+background: white;
+float: left;
+clear: both;
+height: auto;
+padding: 10px 0 10px 0;
+border: 1px black solid;
+border-top: 0;
+}
+
+/* Fix the width on all drop links */
+#nav li ul a{
+width:18em;
+height:auto;
+z-index:99;
+padding-left: 12px;
+}
+
+/* The Link Hover Color */
+#nav li ul a:hover{color: #1780b9;}
+
+#nav ul ul{
+top:auto;
+z-index:99;
+}
+
+/*-------------------------content------------------------------*/
+
+#page #content{
+	background: #fff;
+	margin-left: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	margin-right: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	padding: 30px 30px 20px 30px;
+	width: 939px;
+	min-height:400px;
+
+}
+
+
+
+#location-map {
+	width:500px;
+	padding:0px 0 0px 80px;
+	float:right;
+}
+
+#contact-right {
+	width:580px;
+	padding:0px 0 40px 0px;
+	float:right;
+}
+
+#map-left {
+	width:290px;
+	float:left;
+	padding-top:40px;
+}
+
+#menu1 {
+	float:left;
+	width:450px;
+}
+
+#menu2 {
+	float:right;
+	width:450px;
+}
+
+#clear {
+	clear:both;
+}
+
+/*------------------------footer-----------------------------*/
+
+
+
+#footer .footerList li{
+	color: #6BB9C3;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#footer .copyright{
+	clear: both;
+	color: #6BB9C3;
+	margin-left: 51px;
+	padding-top: 25px;
+	font-size: 11px;
+	font-style: bold;
+	text-align: center;
+}
+
+#footer .copyright span{
+
+	color: #FFF;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 75px;
+    height: 75px;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+/* -------------------------------------------- */
+/* ------------ LARGE (INDEX PAGE) ------------ */
+/* -------------------------------------------- */
+
+.jcarousel-skin-atlantica .jcarousel-container {
+    background: #FFF;
+   	margin-left: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	margin-right: 29px; /* IMPORTANT! DO NOT REMOVE! */
+}
+
+.jcarousel-skin-atlantica .jcarousel-container-horizontal {
+    width: 920px;
+    padding-left: 31px;
+    padding-right: 49px;
+    padding-top: 15px;
+}
+
+.jcarousel-skin-atlantica .jcarousel-clip-horizontal {
+    width:  935px;
+    height: 289px;
+}
+
+.jcarousel-skin-atlantica .jcarousel-item {
+    width: 308px;
+    height: 289px;
+}
+
+.jcarousel-skin-atlantica .jcarousel-item-horizontal {
+    margin-right: 5px;
+}
+
+
+.jcarousel-skin-atlantica .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-atlantica .jcarousel-next-horizontal {
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    width: 29px;
+    height: 54px;
+    cursor: pointer;
+    background: transparent url(/images/arrow_right.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-atlantica .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 120px;
+    left: -15px;
+    width: 29px;
+    height: 54px;
+    cursor: pointer;
+    background: transparent url(/images/arrow_left.png) no-repeat 0 0;
+}
+
+/* -------------------------------------------- */
+/* ------------ SMALL (ABOUT THE STUDIO PAGE) ------------ */
+/* -------------------------------------------- */
+
+.jcarousel-skin-atlantica-small .jcarousel-container {
+    background: #FFF;
+   	margin-left: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	margin-right: 29px; /* IMPORTANT! DO NOT REMOVE! */
+}
+
+.jcarousel-skin-atlantica-small .jcarousel-container-horizontal {
+    width: 920px;
+    padding-left: 31px;
+    padding-right: 49px;
+    padding-top: 15px;
+}
+
+.jcarousel-skin-atlantica-small .jcarousel-clip-horizontal {
+    width:  935px;
+    height: 140px;
+    border-bottom: 1px solid #313131;
+    padding-bottom: 15px;
+}
+
+.jcarousel-skin-atlantica-small .jcarousel-item {
+    width: 151px;
+    height: 136px;
+}
+
+.jcarousel-skin-atlantica-small .jcarousel-item-horizontal {
+    margin-right: 5px;
+}
+
+
+.jcarousel-skin-atlantica-small .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-atlantica-small .jcarousel-next-horizontal {
+    position: absolute;
+    top: 60px;
+    right: -15px;
+    width: 29px;
+    height: 54px;
+    cursor: pointer;
+    background: transparent url(/images/arrow_right.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-atlantica-small .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 60px;
+    left: -15px;
+    width: 29px;
+    height: 54px;
+    cursor: pointer;
+    background: transparent url(/images/arrow_left.png) no-repeat 0 0;
+}
+
+
+
+/* -------------------------------------------- */
+/* ------------ Gallery (PORTFOLIO PAGE) ------------ */
+/* -------------------------------------------- */
+
+.jcarousel-skin-atlantica-gallery .jcarousel-container {
+    background: #FFF;
+   	margin-left: 29px; /* IMPORTANT! DO NOT REMOVE! */
+	margin-right: 29px; /* IMPORTANT! DO NOT REMOVE! */
+}
+
+.jcarousel-skin-atlantica-gallery .jcarousel-container-horizontal {
+    width: 920px;
+    padding-left: 31px;
+    padding-right: 49px;
+    padding-top: 15px;
+}
+
+.jcarousel-skin-atlantica-gallery .jcarousel-clip-horizontal {
+    width:  935px;
+    height: 575px;
+    padding-bottom: 10px;
+}
+
+.jcarousel-skin-atlantica-gallery .jcarousel-item {
+    width: 151px;
+    height: 575px;
+}
+
+.jcarousel-skin-atlantica-gallery .jcarousel-item-horizontal {
+    margin-right: 7px;
+}
+
+.jcarousel-skin-atlantica-gallery .jcarousel-item-horizontal img {
+    margin-bottom: 10px;
+}
+
+
+.jcarousel-skin-atlantica-gallery .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-atlantica-gallery .jcarousel-next-horizontal {
+    position: absolute;
+    top: 275px;
+    right: -15px;
+    width: 29px;
+    height: 54px;
+    cursor: pointer;
+    background: transparent url(/images/arrow_right.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-atlantica-gallery .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 275px;
+    left: -15px;
+    width: 29px;
+    height: 54px;
+    cursor: pointer;
+    background: transparent url(/images/arrow_left.png) no-repeat 0 0;
+}
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td, hr
+{
+margin: 0; padding: 0;
+}
+
+body
+{
+line-height: 1;
+}
+
+ul, ol
+{
+list-style: none;
+}
+
+a
+{
+color: black;
+text-decoration: none;
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+.floatLeft
+{
+float: left;
+}
+
+.floatRight
+{
+float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+div.hr hr {
+  display: none;
+}
+
+#page .navigation ul li .icon {float:left;}
+
+#footer-menu-nav {
+	margin:0 29px;
+	padding:50px 0 10px 0;
+	position: relative;
+	width:999px;
+	height:70px;
+	text-align:center;
+	background-image:url(/images/footer-ridges.png);
+	background-repeat:repeat-x;
+}
+
+#footer-menu-nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+	display:table;
+}
+
+#footer-menu-nav li {
+	display:table-cell;
+	display:inline;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-menu-nav a {
+	font: Cochin, Arial, Verdana, Helvetica, sans-serif;
+	font-size:11px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+	padding: 0 10px 0 10px;
+    margin-right: 0;
+    line-height: 11px;
+	border-right:solid;
+	border-color: #fff;
+	border-right-width:1px;
+	font-weight:500;
+	text-align:center;
+}
+
+#footer-menu-nav a:hover {
+    color: #0f3952;
+    background: url(/images/navigation.jpg);
+	font-weight:500;
+}
+
+#footer-menu-nav a.current {
+	color: #fff;
+    background: url(/images/navigation.jpg);
+	font-weight:500;
+}
+
+#footer-menu-nav a.last {
+	border:none;
+}
+
+#footerleft {
+	width:1000px;
+	float:left;
+	margin-left:50px;
+}
+
+#footerleft a {
+	color:#FF0;
+}
+
+#yelp-right {
+	float:right;
+	width:310px;
+	padding:0;
+}
+
+#yelp-right img {
+	padding:0;
+}
+
+#yelp-left {
+	float:left;
+	width:600px;
+}
+/*
+     FILE ARCHIVED ON 20:33:17 Mar 16, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:06:10 Jul 30, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.478
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.018
+  esindex: 0.011
+  cdx.remote: 9.916
+  LoadShardBlock: 32.488 (3)
+  PetaboxLoader3.datanode: 115.864 (4)
+  load_resource: 184.98
+  PetaboxLoader3.resolve: 97.696
+*/

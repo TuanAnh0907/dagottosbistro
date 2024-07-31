@@ -112,6 +112,47 @@
         });
     </script>
 
+    <style type="text/css">
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            margin: 0;
+            padding: 0!important;
+            width: 100px !important;
+            cursor: pointer;
+            background-color: whitesmoke;
+            z-index: 99;
+        }
+
+        .dropdown > a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .dropdown-content li {
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            color: #ddaa44;
+        }
+    </style>
 </head>
 
 <body>
@@ -122,9 +163,7 @@
     <div id="page">
         <!-- Header -->
         <div class="header">
-
             <a href="/"><img src="images/header_logo.png" alt="" width="1000" height="180" border="0"/></a></div>
-
 
         <!-- Start Navigation -->
         <div class="navigation">
@@ -136,6 +175,13 @@
                     <li><a href="/dp/menu/">OUR MENU</a></li>
                     <li><a href="/dp/events/">EVENTS</a></li>
                     <li><a href="/dp/contact/">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a href="#" title="Cities">CITIES</a>
+                        <ul class="dropdown-content">
+                            <li><a>Ha Noi</a></li>
+                            <li><a>TP.Ho Chi Minh</a></li>
+                        </ul>
+                    </li>
                 </ul>
 
                 <div class="clear"></div>
@@ -190,7 +236,7 @@
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <div id="yelp-left">
-                    <p><img src="/images/dagottos-golden-co.png"/>
+                    <p><img src="/images/dagottos-golden-co.png" alt=""/>
                     </p></div>
                 <div id="yelp-right">
                     <h2 align="center"></h2>
@@ -204,21 +250,21 @@
                                          target="_blank"><img src="/images/facebook.png" alt="" width="70" height="70"
                                                               border="0" class="alignright size-full wp-image-108"
                                                               title="facebook"/></a>&nbsp;&nbsp;<a
-                            href="https://www.yelp.com/biz/dagottos-panini-bistro-golden" target="_blank"><img
-                            src="/images/yelp.jpeg" alt="" width="70" height="70" border="0"
-                            class="alignleft  wp-image-187" title="yelp"/></a><a href="#" target="_blank"><img
-                            src="/images/google-places.jpg" alt="" width="90" height="70" border="0"
-                            class="alignleft  wp-image-189" title="google-places2"/></a><a
-                            href="https://www.urbanspoon.com/r/17/1659710/restaurant/Denver/Dagottos-Panini-Bistro-Golden"
-                            target="_blank"><img src="/images/urban.jpeg" alt="" width="70" height="70" border="0"
-                                                 class="alignleft  wp-image-190" title="urban"/></a><a
-                            href="https://www.yelp.com/biz/paninos-sandwich-and-bakery-golden-2">
+                        href="https://www.yelp.com/biz/dagottos-panini-bistro-golden" target="_blank"><img
+                        src="/images/yelp.jpeg" alt="" width="70" height="70" border="0"
+                        class="alignleft  wp-image-187" title="yelp"/></a><a href="#" target="_blank"><img
+                        src="/images/google-places.jpg" alt="" width="90" height="70" border="0"
+                        class="alignleft  wp-image-189" title="google-places2"/></a><a
+                        href="https://www.urbanspoon.com/r/17/1659710/restaurant/Denver/Dagottos-Panini-Bistro-Golden"
+                        target="_blank"><img src="/images/urban.jpeg" alt="" width="70" height="70" border="0"
+                                             class="alignleft  wp-image-190" title="urban"/></a><a
+                        href="https://www.yelp.com/biz/paninos-sandwich-and-bakery-golden-2">
                     </a><a href="https://www.urbanspoon.com/r/17/1659710/restaurant/Denver/Paninos-Cafe-Golden">
                     </a></p>
                     <p style="text-align: center;"><a
-                            href="https://www.tripadvisor.com/Restaurant_Review-g33447-d4414052-Reviews-Dagotto_s_Panini_Bistro-Golden_Colorado.html"
-                            target="_blank"><img src="/images/trip.jpeg" alt="" width="172" height="100" border="0"
-                                                 class="aligncenter  wp-image-168" title="trip"/></a></p>
+                        href="https://www.tripadvisor.com/Restaurant_Review-g33447-d4414052-Reviews-Dagotto_s_Panini_Bistro-Golden_Colorado.html"
+                        target="_blank"><img src="/images/trip.jpeg" alt="" width="172" height="100" border="0"
+                                             class="aligncenter  wp-image-168" title="trip"/></a></p>
 
                     <h2 style="text-align: center;">If you like your experience with us, click on the links above and
                         add your review about us!!</h2>
@@ -231,6 +277,52 @@
 
             </div>
             <!-- Stop Content WRAP -->
+
+            <section style="margin-top:20px; background-color: white; border-radius: 15px; padding: 10px">
+                <h2 style="color: #2E8B57; font-weight: bolder; font-size: 35px">Bài viết mới nhất</h2>
+                <ul class="list-articles" style="list-style: none; padding: 0">
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/tong-hop-16-quan-nhau-tai-phuong-4-quan-10.p664">
+                            Tổng hợp 16 quán nhậu tại Phường 4 Quận 10
+                        </a>
+                    </li>
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/tong-hop-11-quan-tra-sua-tai-phuong-4-quan-10.p663">
+                            Tổng hợp 11 quán trà sữa tại Phường 4 Quận 10
+                        </a>
+                    </li>
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/top-17-quan-cafe-tai-phuong-15-quan-4.p662">
+                            Top 17 quán cafe tại Phường 15 Quận 4
+                        </a>
+                    </li>
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/top-11-quan-nhau-tai-phuong-8-quan-11.p661">
+                            Top 11 quán nhậu tại Phường 8 Quận 11
+                        </a>
+                    </li>
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/danh-sach-10-quan-an-sang-tai-phuong-5-quan-6.p660">
+                            Danh sách 10 quán ăn sáng tại Phường 5 Quận 6
+                        </a>
+                    </li>
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/danh-sach-13-quan-nhau-tai-phuong-5-quan-6.p659">
+                            Danh sách 13 quán nhậu tại Phường 5 Quận 6
+                        </a>
+                    </li>
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/danh-sach-14-quan-nhau-tai-phuong-6-quan-6.p658">
+                            Danh sách 14 quán nhậu tại Phường 6 Quận 6
+                        </a>
+                    </li>
+                    <li class="article-item">
+                        <a href="https://amthucbinhxuyen.com/post/top-15-quan-cafe-tai-phuong-5-quan-6.p657">
+                            Top 15 quán cafe tại Phường 5 Quận 6
+                        </a>
+                    </li>
+                </ul>
+            </section>
 
         </div>
         <!-- End Content -->
@@ -266,7 +358,8 @@
         <p align="center"><span style="color:#FFF">700 12th Street Suite 150 | Golden, CO 80401 | 720-379-7751</span>
         </p><br/><br/>
         <p align="center"><strong><span style="color:#FFF">&copy; Copyright 2013 Dagotto's</span></strong></p><br/>
-        <p align="center"><a href="https://www.goldenmarketingllc.com" target="_blank">Website Design by Golden Marketing
+        <p align="center"><a href="https://www.goldenmarketingllc.com" target="_blank">Website Design by Golden
+            Marketing
             LLC</a></p>
     </div>
 
@@ -275,8 +368,6 @@
 </div>
 <!-- End Footer -->
 
-
-</div>
 <!-- End Global Wrap -->
 
 

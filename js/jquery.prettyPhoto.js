@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------------------
 	Class: prettyPhoto
 	Use: Lightbox clone for jQuery
-	Author: Stephane Caron (http://www.no-margin-for-errors.com)
+	Author: Stephane Caron (https://www.no-margin-for-errors.com)
 	Version: 2.4.3
 ------------------------------------------------------------------------- */
 
@@ -412,9 +412,9 @@ var $ppt;
 				correctSizes = _fitToViewport(movie_width,movie_height);
 				
 				if(pp_type == 'youtube'){
-					pp_typeMarkup = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="'+correctSizes['width']+'" height="'+correctSizes['height']+'"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.youtube.com/v/'+grab_param('v',$caller.attr('href'))+'" /><embed src="http://www.youtube.com/v/'+grab_param('v',$caller.attr('href'))+'" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="'+correctSizes['width']+'" height="'+correctSizes['height']+'"></embed></object>';
+					pp_typeMarkup = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="'+correctSizes['width']+'" height="'+correctSizes['height']+'"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="https://www.youtube.com/v/'+grab_param('v',$caller.attr('href'))+'" /><embed src="https://www.youtube.com/v/'+grab_param('v',$caller.attr('href'))+'" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="'+correctSizes['width']+'" height="'+correctSizes['height']+'"></embed></object>';
 				}else if(pp_type == 'quicktime'){
-					pp_typeMarkup = '<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" height="'+correctSizes['height']+'" width="'+correctSizes['width']+'"><param name="src" value="'+$caller.attr('href')+'"><param name="autoplay" value="true"><param name="type" value="video/quicktime"><embed src="'+$caller.attr('href')+'" height="'+correctSizes['height']+'" width="'+correctSizes['width']+'" autoplay="true" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"></embed></object>';
+					pp_typeMarkup = '<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" height="'+correctSizes['height']+'" width="'+correctSizes['width']+'"><param name="src" value="'+$caller.attr('href')+'"><param name="autoplay" value="true"><param name="type" value="video/quicktime"><embed src="'+$caller.attr('href')+'" height="'+correctSizes['height']+'" width="'+correctSizes['width']+'" autoplay="true" type="video/quicktime" pluginspage="https://www.apple.com/quicktime/download/"></embed></object>';
 				}else if(pp_type == 'flash'){
 					flash_vars = $caller.attr('href');
 					flash_vars = flash_vars.substring($caller.attr('href').indexOf('flashvars') + 10,$caller.attr('href').length);
